@@ -1,0 +1,3 @@
+#pragma once
+
+#include <../Falcon/include/include/internal/QStyleSyntaxHighlighter.hpp>

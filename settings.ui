@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Settings</class>
+ <widget class="QDialog" name="Settings">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>346</width>
+    <height>264</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Change Settings</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QPushButton" name="btnAccept">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>200</y>
+     <width>75</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Accept
+Changes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClose">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>200</y>
+     <width>75</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkReadOnly">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>46</y>
+     <width>73</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Read Only</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkAutoParenth">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>165</y>
+     <width>109</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Auto Parentheses</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkAutoIndent">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>75</y>
+     <width>105</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Auto Indentation</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkTabReplace">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>104</y>
+     <width>82</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tab Replace</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkWordWrap">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>17</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Word Wrap</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spnSpaces">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>133</y>
+     <width>37</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>16</number>
+   </property>
+   <property name="value">
+    <number>4</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

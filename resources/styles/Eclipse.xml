@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<colorTheme id="3741" author="rk" modified="2011-09-30 17:00:20" name="qt-creator">
+<searchResultIndication color="#EFEFEF"/>
+<filteredSearchResultIndication color="#EFEFEF"/>
+<occurrenceIndication color="#EFEFEF"/>
+<writeOccurrenceIndication color="#EFEFEF"/>
+<findScope color="#BCADAD"/>
+<deletionIndication color="#9b5656"/>
+<sourceHoverBackground color="#EEEEEE"/>
+<singleLineComment color="#008000"/>
+<multiLineComment color="#008000"/>
+<commentTaskTag color="#008000"/>
+<javadoc color="#0000FF"/>
+<javadocLink color="#000080"/>
+<javadocTag color="#000080"/>
+<javadocKeyword color="#000080"/>
+<class color="#800080"/>
+<interface color="#800080"/>
+<method color="#300030"/>
+<methodDeclaration color="#333333"/>
+<bracket color="#111111"/>
+<number color="#000000"/>
+<string color="#008000"/>
+<operator color="#111111"/>
+<keyword color="#808000"/>
+<annotation color="#808080"/>
+<staticMethod color="#C4C4B7"/>
+<localVariable color="#000080"/>
+<localVariableDeclaration color="#000080"/>
+<field color="#800000"/>
+<staticField color="#800000"/>
+<staticFinalField color="#800000"/>
+<deprecatedMember color="#AB2525"/>
+<enum color="#800040"/>
+<inheritedMethod color="#400040"/>
+<abstractMethod color="#400040" italic="true"/>
+<parameterVariable color="#0000FF"/>
+<typeArgument color="#885D3B"/>
+<typeParameter color="#885D3B"/>
+<constant color="#FF8000"/>
+<background color="#FFFFFF"/>
+<currentLine color="#EEEEEE"/>
+<foreground color="#000000"/>
+<lineNumber color="#B3B2B1"/>
+<selectionBackground color="#418BD4"/>
+<selectionForeground color="#FFFFFF"/>
+</colorTheme>

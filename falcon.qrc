@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>resources/code_samples/Blank.fal</file>
+        <file>resources/languages/fal.xml</file>
+        <file>resources/styles/drakula.xml</file>
+        <file>resources/styles/default_style.xml</file>
+        <file>resources/styles/crystal_hammer.xml</file>
+        <file>resources/styles/dark_code.xml</file>
+        <file>resources/styles/monokai.xml</file>
+        <file>resources/styles/SublimeMaterial.xml</file>
+        <file>resources/styles/SublimeMaterialLight.xml</file>
+        <file>resources/styles/Tomorrow.xml</file>
+        <file>resources/styles/Tomorrow-Night.xml</file>
+        <file>resources/styles/Tomorrow-Night-Blue.xml</file>
+        <file>resources/styles/Tomorrow-Night-Eighties.xml</file>
+        <file>resources/styles/VS2012.xml</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/qcodeeditor_resources.qrc</file>
+    </qresource>
+</RCC>
